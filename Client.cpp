@@ -12,26 +12,16 @@ int main(int argNum, char* argStr[])
 {
 
 	
-	/*if (argNum != 3)
+	if (argNum != 3)
 	{
 		cout << "Incorrect command line\nWaited command input_file output_file\n";
 		return 0;
 
 	}
 	ifstream inputFile(argStr[1]);
-	ofstream outputFile(argStr[2]);*/
+	ofstream outputFile(argStr[2]);
 
-	ofstream outX("outqwer.txt");
-	std::string in;
-	std::string out;
-	getline(cin, in);
-	getline(cin, out);
-	in += '\0';
-	out += '\0';
-	ifstream inputFile;
-	inputFile.open("input.txt");
-	ofstream outputFile;
-	outputFile.open("output.txt");
+	
 	
 	
 	Head* list=new Head;
