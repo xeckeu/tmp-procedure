@@ -5,4 +5,4 @@
 #include <string>
 #include "Fish.h"
 
-void input(fish newFish, std::ifstream& file);
+void input(fish& newFish, std::ifstream& file);

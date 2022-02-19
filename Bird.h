@@ -2,6 +2,7 @@
 #include <string>
 struct  bird
 {
-	std::string name;
+	bird() {  }
+	char name[30];
 	bool migratory;
 };

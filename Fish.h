@@ -2,6 +2,6 @@
 #include <string>
 struct fish
 {
-	std::string name;
+	char name[30];
 	enum habitat { Sea, River, Lake } areal;
 };

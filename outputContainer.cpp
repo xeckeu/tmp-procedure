@@ -8,5 +8,6 @@ void output(std::ofstream& file, Head*outHead)
 	{
 		file << i << ": ";
 		output(file, cur);
+		cur = cur->next;
 	}
 }

@@ -4,10 +4,11 @@ void deleteContainer(Head* head)
 	auto erasing= head->begin;
 	while (head->size > 0)
 	{
-		auto cur = erasing->prev;
-		erasing->prev = erasing->next;
-		erasing->next = cur;
+		auto cur = erasing->next;
+		erasing->next = erasing->prev;
+		erasing->prev = cur;
 		delete erasing;
+		erasing = cur;
 		head->size--;
 	}
 }

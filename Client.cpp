@@ -20,6 +20,8 @@ int main(int argNum, char* argStr[])
 	}
 	ifstream inputFile(argStr[1]);
 	ofstream outputFile(argStr[2]);*/
+
+	ofstream outX("outqwer.txt");
 	std::string in;
 	std::string out;
 	getline(cin, in);
@@ -27,9 +29,9 @@ int main(int argNum, char* argStr[])
 	in += '\0';
 	out += '\0';
 	ifstream inputFile;
-	inputFile.open("C:\\\\input.txt\0", ios::in);
+	inputFile.open("input.txt");
 	ofstream outputFile;
-	outputFile.open(out);
+	outputFile.open("output.txt");
 	
 	
 	Head* list=new Head;
