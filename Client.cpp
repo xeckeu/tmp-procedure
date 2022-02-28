@@ -15,7 +15,7 @@ int main(int argNum, char* argStr[])
 	if (argNum != 3)
 	{
 		cout << "Incorrect command line\nWaited command input_file output_file\n";
-		return 0;
+		return 1;
 
 	}
 	ifstream inputFile(argStr[1]);

@@ -123,10 +123,12 @@
     <ClCompile Include="Client.cpp" />
     <ClCompile Include="delete.cpp" />
     <ClCompile Include="Init.cpp" />
+    <ClCompile Include="inputAnimal.cpp" />
     <ClCompile Include="inputBird.cpp" />
     <ClCompile Include="InputContainer.cpp" />
     <ClCompile Include="inputElement.cpp" />
     <ClCompile Include="inputFish.cpp" />
+    <ClCompile Include="outputAnimal.cpp" />
     <ClCompile Include="outputBird.cpp" />
     <ClCompile Include="outputContainer.cpp" />
     <ClCompile Include="outputElement.cpp" />
@@ -134,6 +136,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="addElement.h" />
+    <ClInclude Include="animal.h" />
     <ClInclude Include="Bird.h" />
     <ClInclude Include="container.h" />
     <ClInclude Include="delete.h" />
@@ -141,10 +144,12 @@
     <ClInclude Include="Head.h" />
     <ClInclude Include="Fish.h" />
     <ClInclude Include="Init.h" />
+    <ClInclude Include="inputAnimal.h" />
     <ClInclude Include="InputContainer.h" />
     <ClInclude Include="inputElement.h" />
     <ClInclude Include="inputBird.h" />
     <ClInclude Include="inputFish.h" />
+    <ClInclude Include="outputAnimal.h" />
     <ClInclude Include="outputBird.h" />
     <ClInclude Include="outputContainer.h" />
     <ClInclude Include="outputElement.h" />

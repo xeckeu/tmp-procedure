@@ -21,6 +21,13 @@ container* input(std::ifstream& file)
 		input(newElement->f, file);
 		return newElement;
 	}
+	case 'a':
+	{
+		newElement = new container;
+		newElement->key = container::type::ANIMAL;
+		input(newElement->a, file);
+		return newElement;
+	}
 	default:
 	{
 		return false;

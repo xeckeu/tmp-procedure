@@ -14,6 +14,11 @@ void output(std::ofstream& file, Element * outElement)
 		output(outElement->c->f, file);
 		break;
 	}
+	case container::type::ANIMAL:
+	{
+		output(outElement->c->a, file);
+		break;
+	}
 	default:
 		file << "Incorrect animal\n";
 	}
