@@ -11,4 +11,5 @@ void input(fish& newFish, std::ifstream& file)
 		newFish.areal = fish::habitat::River;
 	else if (areal == "sea")
 		newFish.areal = fish::habitat::Sea;
+	file >> newFish.age;
 }

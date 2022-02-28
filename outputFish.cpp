@@ -7,21 +7,22 @@ void output(fish out, std::ofstream& file)
 	{
 	case fish::habitat::Lake:
 	{
-		file << "lake.\n";
+		file << "lake";
 		break;
 	}
 	case fish::habitat::River:
 	{
-		file << "river.\n";
+		file << "river";
 		break;
 	}
 	case fish::habitat::Sea:
 	{
-		file << "sea.\n";
+		file << "sea";
 		break;
 	}
 
 	default:
 		break;
 	}
+	file << ", age " << out.age << "\n";
 }
