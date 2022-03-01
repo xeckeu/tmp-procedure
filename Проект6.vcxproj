@@ -127,6 +127,7 @@
     <ClCompile Include="InputContainer.cpp" />
     <ClCompile Include="inputElement.cpp" />
     <ClCompile Include="inputFish.cpp" />
+    <ClCompile Include="nameLenght.cpp" />
     <ClCompile Include="outputBird.cpp" />
     <ClCompile Include="outputContainer.cpp" />
     <ClCompile Include="outputElement.cpp" />
@@ -145,6 +146,7 @@
     <ClInclude Include="inputElement.h" />
     <ClInclude Include="inputBird.h" />
     <ClInclude Include="inputFish.h" />
+    <ClInclude Include="nameLenght.h" />
     <ClInclude Include="outputBird.h" />
     <ClInclude Include="outputContainer.h" />
     <ClInclude Include="outputElement.h" />
