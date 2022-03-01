@@ -6,6 +6,7 @@
 #include "InputContainer.h"
 #include "outputContainer.h"
 #include "delete.h"
+#include "ignoreOutput.h"
 using namespace std;
 
 int main(int argNum, char* argStr[])
@@ -30,6 +31,13 @@ int main(int argNum, char* argStr[])
 	
 	outputFile << "Filled container\n";
 	output(outputFile, list);
+
+	outputFile << "Ignore bird\n";
+	output(outputFile, list,container::type::BIRD);
+
+	outputFile << "Ignore fish\n";
+	output(outputFile, list, container::type::FISH);
+
 	outputFile << "Empty conteiner\n";
 	deleteContainer(list);
 	output(outputFile, list);

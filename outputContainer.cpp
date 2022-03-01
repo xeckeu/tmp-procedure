@@ -1,6 +1,6 @@
 #include "outputContainer.h"
 
-void output(std::ofstream& file, Head*outHead)
+void output(std::ofstream& file, Head*outHead,container::type ignore)
 {
 	file << "Container contains " << outHead->size << " elements\n";
 	auto cur = outHead->begin;
