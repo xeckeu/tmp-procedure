@@ -122,6 +122,7 @@
     <ClCompile Include="addElement.cpp" />
     <ClCompile Include="Client.cpp" />
     <ClCompile Include="delete.cpp" />
+    <ClCompile Include="equ.cpp" />
     <ClCompile Include="Init.cpp" />
     <ClCompile Include="inputBird.cpp" />
     <ClCompile Include="InputContainer.cpp" />
@@ -132,6 +133,7 @@
     <ClCompile Include="outputContainer.cpp" />
     <ClCompile Include="outputElement.cpp" />
     <ClCompile Include="outputFish.cpp" />
+    <ClCompile Include="sort.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="addElement.h" />
@@ -139,6 +141,7 @@
     <ClInclude Include="container.h" />
     <ClInclude Include="delete.h" />
     <ClInclude Include="Element.h" />
+    <ClInclude Include="equ.h" />
     <ClInclude Include="Head.h" />
     <ClInclude Include="Fish.h" />
     <ClInclude Include="Init.h" />
@@ -151,6 +154,7 @@
     <ClInclude Include="outputContainer.h" />
     <ClInclude Include="outputElement.h" />
     <ClInclude Include="outputFish.h" />
+    <ClInclude Include="sort.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
