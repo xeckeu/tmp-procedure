@@ -11,7 +11,7 @@ using namespace std;
 int main(int argNum, char* argStr[])
 {
 
-	
+	/*
 	if (argNum != 3)
 	{
 		cout << "Incorrect command line\nWaited command input_file output_file\n";
@@ -19,7 +19,9 @@ int main(int argNum, char* argStr[])
 
 	}
 	ifstream inputFile(argStr[1]);
-	ofstream outputFile(argStr[2]);
+	ofstream outputFile(argStr[2]);*/
+	ifstream inputFile("input.txt");
+	ofstream outputFile("output.txt");
 
 	
 	
