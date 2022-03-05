@@ -5,5 +5,14 @@ Container contains 5 elements
 2: It's bird, name pigeon migratory true.
 3: It's fish, name is pike areal is river.
 4: It's fish, name is roughy areal is lake.
+Ignore bird
+Container contains 5 elements
+1: It's fish, name is salmon areal is sea.
+3: It's fish, name is pike areal is river.
+4: It's fish, name is roughy areal is lake.
+Ignore fish
+Container contains 5 elements
+0: It's bird, name eagle migratory false.
+2: It's bird, name pigeon migratory true.
 Empty conteiner
 Container contains 0 elements
