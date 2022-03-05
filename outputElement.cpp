@@ -17,4 +17,5 @@ void output(std::ofstream& file, Element * outElement)
 	default:
 		file << "Incorrect animal\n";
 	}
+	file << "Name lenght " << nameLenght(outElement) << "\n";
 }

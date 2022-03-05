@@ -1,9 +1,14 @@
 Filled container
 Container contains 5 elements
 0: It's bird, name eagle migratory false.
+Name lenght5
 1: It's fish, name is salmon areal is sea.
+Name lenght6
 2: It's bird, name pigeon migratory true.
+Name lenght6
 3: It's fish, name is pike areal is river.
+Name lenght4
 4: It's fish, name is roughy areal is lake.
+Name lenght6
 Empty conteiner
 Container contains 0 elements
