@@ -5,4 +5,5 @@
 #include "Head.h"
 #include "outputFish.h"
 #include "outputBird.h"
+#include "outputAnimal.h"
 void output(std::ofstream& file, Element * outElement);
