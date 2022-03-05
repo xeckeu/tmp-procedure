@@ -9,31 +9,35 @@ Head* sort(Head* list)
 	{
 		cur->nameLenght = nameLenght(cur);
 		cur = cur->next;
-	}while (cur != list->end);
+	}while (cur != list->begin);
 	Head* newList = new Head();
 	Init(newList);
 	while (list->size != 0)
 	{
 		cur = list->begin;
 		auto newMin = list->begin;
+		int curS = list->size;
 		do
 		{
 			if (newMin->nameLenght > cur->nameLenght)
 				newMin = cur;
 			cur = cur->next;
-		} while (cur != list->end);
+			curS -= 1;
+		} while (curS);
 		if (newMin == list->begin)
 		{
 			list->begin = list->begin->next;
 		}
 		if (newMin == list->end)
 		{
-			list->end = list->begin->prev;
+			list->end = list->end->prev;
 		}
 		auto cur2 = newMin->prev;
-		newMin->prev = newMin->next;
-		cur2->next = newMin->prev;
+		newMin->prev->next = newMin->next;
+		newMin->next->prev = cur2;
 		addElement(newList, newMin);
+		
+		list->size--;
 	}
 	delete[] list;
 	return newList;
