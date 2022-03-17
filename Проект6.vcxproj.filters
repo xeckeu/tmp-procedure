@@ -51,10 +51,14 @@
     <ClCompile Include="delete.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="inputAnimal.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
     <ClCompile Include="outputAnimal.cpp">
+=======
+    <ClCompile Include="nameLenght.cpp">
+>>>>>>> newFunc
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
   </ItemGroup>
@@ -107,6 +111,7 @@
     <ClInclude Include="outputElement.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="animal.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
@@ -114,6 +119,9 @@
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
     <ClInclude Include="outputAnimal.h">
+=======
+    <ClInclude Include="nameLenght.h">
+>>>>>>> newFunc
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
   </ItemGroup>
@@ -124,6 +132,7 @@
     <Text Include="output.txt">
       <Filter>Файлы ресурсов</Filter>
     </Text>
+<<<<<<< HEAD
   </ItemGroup>
   <ItemGroup>
     <Text Include="output.txt">
@@ -132,5 +141,7 @@
     <Text Include="input.txt">
       <Filter>Файлы ресурсов</Filter>
     </Text>
+=======
+>>>>>>> newFunc
   </ItemGroup>
 </Project>

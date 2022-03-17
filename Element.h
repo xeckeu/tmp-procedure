@@ -10,4 +10,5 @@ struct Element
 	Element* prev;
 
 	container* c;
+	int nameLenght = -1;
 };
