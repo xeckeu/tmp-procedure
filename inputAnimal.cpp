@@ -12,4 +12,5 @@ void input(animal& newAnimal, std::ifstream& file)
 		newAnimal.eat = animal::nutrition::insectivore;
 	else if (cur == "predator")
 		newAnimal.eat = animal::nutrition::predator;
+	file >> newAnimal.age;
 }

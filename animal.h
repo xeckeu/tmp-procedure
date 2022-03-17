@@ -4,4 +4,5 @@ struct animal
 {
 	char name[30];
 	enum nutrition { predator, herbivore, insectivore } eat;
+	int age;
 };
