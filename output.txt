@@ -1,4 +1,5 @@
 Filled container
+<<<<<<< HEAD
 Container contains 8 elements
 0: It's bird, name eagle migratory false.
 1: It's animal, name cow eating type herbivore
@@ -8,5 +9,13 @@ Container contains 8 elements
 5: It's fish, name is pike areal is river.
 6: It's animal, name wolf eating type predator
 7: It's fish, name is roughy areal is lake.
+=======
+Container contains 5 elements
+0: It's bird, name eagle migratory false, age 5
+1: It's fish, name is salmon areal is sea, age 2
+2: It's bird, name pigeon migratory true, age 3
+3: It's fish, name is pike areal is river, age 4
+4: It's fish, name is roughy areal is lake, age 7
+>>>>>>> newField
 Empty conteiner
 Container contains 0 elements

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿Сборка начата 05.03.2022 12:09:51.
      1>Проект "C:\Users\user\Documents\Visual Studio 2015\Projects\proga\Проект6\Проект6.vcxproj" в узле 2 (целевые объекты Build).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Проект6.vcxproj).  This can lead to incorrect clean and rebuild behavior.
@@ -19,9 +20,19 @@
          Debug\outputContainer.obj
          Debug\outputElement.obj
          Debug\outputFish.obj
+=======
+﻿Сборка начата 05.03.2022 12:15:07.
+     1>Проект "C:\Users\user\Documents\Visual Studio 2015\Projects\proga\Проект6\Проект6.vcxproj" в узле 2 (целевые объекты Build).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Проект6.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>Link:
+>>>>>>> newField
          Проект6.vcxproj -> C:\Users\user\Documents\Visual Studio 2015\Projects\proga\Debug\proga.exe
      1>Сборка проекта "C:\Users\user\Documents\Visual Studio 2015\Projects\proga\Проект6\Проект6.vcxproj" завершена (целевые объекты Build).
 
 Сборка успешно завершена.
 
+<<<<<<< HEAD
 Затраченное время: 00:00:01.55
+=======
+Затраченное время: 00:00:00.11
+>>>>>>> newField
