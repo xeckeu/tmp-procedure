@@ -51,20 +51,23 @@
     <ClCompile Include="delete.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
-<<<<<<< HEAD
+
     <ClCompile Include="inputAnimal.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
     <ClCompile Include="outputAnimal.cpp">
-=======
+
     <ClCompile Include="nameLenght.cpp">
->>>>>>> newFunc
+
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
     <ClCompile Include="equ.cpp">
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
     <ClCompile Include="sort.cpp">
+=======
+    <ClCompile Include="ignoreOutput.cpp">
+>>>>>>> ignoreOutput
       <Filter>Файлы исходного кода</Filter>
     </ClCompile>
   </ItemGroup>
@@ -118,6 +121,7 @@
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <ClInclude Include="animal.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
@@ -155,5 +159,10 @@
     </Text>
 =======
 >>>>>>> newFunc
+=======
+    <ClInclude Include="ignoreOutput.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+>>>>>>> ignoreOutput
   </ItemGroup>
 </Project>

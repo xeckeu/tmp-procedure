@@ -122,7 +122,11 @@
     <ClCompile Include="addElement.cpp" />
     <ClCompile Include="Client.cpp" />
     <ClCompile Include="delete.cpp" />
+
     <ClCompile Include="equ.cpp" />
+
+    <ClCompile Include="ignoreOutput.cpp" />
+
     <ClCompile Include="Init.cpp" />
     <ClCompile Include="inputAnimal.cpp" />
     <ClCompile Include="inputBird.cpp" />
@@ -150,6 +154,7 @@
     <ClInclude Include="equ.h" />
     <ClInclude Include="Head.h" />
     <ClInclude Include="Fish.h" />
+    <ClInclude Include="ignoreOutput.h" />
     <ClInclude Include="Init.h" />
     <ClInclude Include="inputAnimal.h" />
     <ClInclude Include="InputContainer.h" />
