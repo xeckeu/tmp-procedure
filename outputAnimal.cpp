@@ -7,20 +7,21 @@ void output(animal out, std::ofstream& file)
 	{
 	case animal::nutrition::herbivore:
 	{
-		file << "herbivore\n";
+		file << "herbivore ";
 		break;
 	}
 	case animal::nutrition::insectivore:
 	{
-		file << "insectivore\n";
+		file << "insectivore ";
 		break;
 	}
 	case animal::nutrition::predator:
 	{
-		file << "predator\n";
+		file << "predator ";
 		break;
 	}
 	default:
 		break;
 	}
+	file << "age " << out.age << "\n";
 }
