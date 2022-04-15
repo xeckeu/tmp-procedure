@@ -2,7 +2,7 @@
 
 container* input(std::ifstream& file)
 {
-	container* newElement;
+	container* newElement=false;
 	char key;
 	file >> key;
 	switch (key)

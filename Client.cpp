@@ -7,6 +7,7 @@
 #include "outputContainer.h"
 #include "delete.h"
 #include "sort.h"
+#include "ignoreOutput.h"
 using namespace std;
 
 int main(int argNum, char* argStr[])
@@ -37,15 +38,26 @@ int main(int argNum, char* argStr[])
 	
 	
 	Head* list=new Head;
-	Init(list);
+	InitList(list);
 	input( inputFile, list);
 	
 	outputFile << "Filled container\n";
 	output(outputFile, list);
-
+	outputFile << "\n";
+	outputFile << "Ignore bird\n";
+	output(outputFile, list, container::type::BIRD);
+	outputFile << "\n";
+	outputFile << "Ignore fish\n";
+	output(outputFile, list, container::type::FISH);
+	outputFile << "\n";
+	outputFile << "Ignore animal\n";
+	output(outputFile, list, container::type::ANIMAL);
+	outputFile << "\n";
 	outputFile << "Sorted container\n";
-	list = sort(list);
+	 sort(list);
 	output(outputFile, list);
+	outputFile << "\n";
+	
 
 	outputFile << "Empty conteiner\n";
 	deleteContainer(list);

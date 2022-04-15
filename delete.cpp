@@ -1,5 +1,6 @@
+
 #include "delete.h"
-void deleteContainer(Head* head)
+int deleteContainer(Head* head)
 {
 	auto erasing= head->begin;
 	while (head->size > 0)
@@ -11,4 +12,5 @@ void deleteContainer(Head* head)
 		erasing = cur;
 		head->size--;
 	}
+	return head->size;
 }

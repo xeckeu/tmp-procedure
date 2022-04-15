@@ -3,4 +3,4 @@
 #include <string>
 #include "animal.h"
 
-void output(animal out, std::ofstream& file);
+int output(animal out, std::ofstream& file);

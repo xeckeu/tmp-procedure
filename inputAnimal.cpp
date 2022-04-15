@@ -1,16 +1,31 @@
 #include "inputAnimal.h"
 
 
-void input(animal& newAnimal, std::ifstream& file)
+int input(animal& newAnimal, std::ifstream& file)
 {
-	file >> newAnimal.name;
+	int succesful = 0;
+	if (file >> newAnimal.name)
+		succesful++;
+	
 	std::string cur;
 	file >> cur;
 	if (cur == "herbivore")
+	{
 		newAnimal.eat = animal::nutrition::herbivore;
+		succesful++;
+	}
 	else if (cur == "insectivore")
+	{
 		newAnimal.eat = animal::nutrition::insectivore;
+		succesful++;
+	}
 	else if (cur == "predator")
+	{
 		newAnimal.eat = animal::nutrition::predator;
-	file >> newAnimal.age;
+		succesful++;
+	}
+	if(file >> newAnimal.age)
+		succesful++;
+
+	return succesful;
 }

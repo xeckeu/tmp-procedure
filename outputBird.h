@@ -3,4 +3,4 @@
 #include <string>
 #include "Bird.h"
 #include "nameLenght.h"
-void output(bird out, std::ofstream& file);
+int output(bird out, std::ofstream& file);

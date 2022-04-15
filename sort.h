@@ -1,3 +1,3 @@
 #pragma once
 #include "Head.h"
-Head* sort(Head* list);
+int* sort(Head*& list);

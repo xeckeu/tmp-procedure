@@ -1,6 +1,7 @@
+
 #include "addElement.h"
 
-void addElement(Head* container, Element* element)
+Element* addElement(Head* container, Element* element)
 {
 	if (container->size == 0)
 	{
@@ -20,4 +21,5 @@ void addElement(Head* container, Element* element)
 		container->begin->prev = element;
 	}
 	container->size++;
+	return container->end;
 }

@@ -1,3 +1,3 @@
 #pragma once
 #include "Head.h"
-void deleteContainer(Head* head);
+int deleteContainer(Head* head);

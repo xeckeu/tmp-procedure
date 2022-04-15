@@ -20,8 +20,23 @@ int nameLenght(Element* el)
 		}
 		break;
 	}
+	{
+		while (el->c->b.name[cur] != '\0')
+		{
+			cur++;
+		}
+		break;
+	}
+	case container::type::ANIMAL:
+	{
+		while (el->c->a.name[cur] != '\0')
+		{
+			cur++;
+		}
+		break;
+	}
 	default:
 		break;
 	}
-	return cur;
+	return 2*cur;
 }

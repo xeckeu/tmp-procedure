@@ -2,4 +2,4 @@
 
 #include "Head.h"
 
-void addElement(Head* container, Element* element);
+Element* addElement(Head* container, Element* element);

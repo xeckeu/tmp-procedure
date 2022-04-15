@@ -1,13 +1,18 @@
 #include "outputContainer.h"
 
-void output(std::ofstream& file, Head*outHead)
+int output(std::ofstream& file, Head*outHead)
 {
+	int num = 0;
 	file << "Container contains " << outHead->size << " elements\n";
 	auto cur = outHead->begin;
 	for (int i = 0; i < outHead->size; i++)
 	{
 		file << i << ": ";
-		output(file, cur);
-		cur = cur->next;
+		if (output(file, cur) == true)
+		{
+			num++;
+			cur = cur->next;
+		}
 	}
+	return num;
 }

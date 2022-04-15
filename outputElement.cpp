@@ -1,26 +1,31 @@
 #include "outputElement.h"
 
-void output(std::ofstream& file, Element * outElement)
+bool output(std::ofstream& file, Element * outElement)
 {
+	bool good=false;
 	switch (outElement->c->key)
 	{
 	case container::type::BIRD:
 		{
-			output(outElement->c->b, file);
+			if(output(outElement->c->b, file)==0)
+				good=true;
 			break;
 		}
 	case container::type::FISH:
 	{
-		output(outElement->c->f, file);
+		if(output(outElement->c->f, file)==0)
+			good = true;;
 		break;
 	}
 	case container::type::ANIMAL:
 	{
-		output(outElement->c->a, file);
+		if(output(outElement->c->a, file)==0)
+			good=true;
 		break;
 	}
 	default:
 		file << "Incorrect animal\n";
 	}
 	file << "Name lenght " << nameLenght(outElement) << "\n";
+	return true;
 }

@@ -4,4 +4,4 @@
 
 #include "Head.h"
 
-void input(std::ifstream& file, Head* container);
+int input(std::ifstream& file, Head* container);

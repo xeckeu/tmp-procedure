@@ -1,8 +1,13 @@
 #include "inputBird.h"
 
-void input(bird& newBird, std::ifstream& file)
+int input(bird& newBird, std::ifstream& file)
 {
-	file>>newBird.name;
-	file  >> newBird.migratory;
-	file >> newBird.age;
+	int num = 0;
+	if(file>>newBird.name)
+		num++;
+	if(file  >> newBird.migratory)
+		num++;
+	if(file >> newBird.age)
+		num++;
+	return num;
 }

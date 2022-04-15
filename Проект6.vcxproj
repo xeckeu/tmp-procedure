@@ -122,22 +122,16 @@
     <ClCompile Include="addElement.cpp" />
     <ClCompile Include="Client.cpp" />
     <ClCompile Include="delete.cpp" />
-
     <ClCompile Include="equ.cpp" />
-
     <ClCompile Include="ignoreOutput.cpp" />
-
     <ClCompile Include="Init.cpp" />
     <ClCompile Include="inputAnimal.cpp" />
     <ClCompile Include="inputBird.cpp" />
     <ClCompile Include="InputContainer.cpp" />
     <ClCompile Include="inputElement.cpp" />
     <ClCompile Include="inputFish.cpp" />
-
     <ClCompile Include="outputAnimal.cpp" />
-
     <ClCompile Include="nameLenght.cpp" />
-
     <ClCompile Include="outputBird.cpp" />
     <ClCompile Include="outputContainer.cpp" />
     <ClCompile Include="outputElement.cpp" />
@@ -161,11 +155,8 @@
     <ClInclude Include="inputElement.h" />
     <ClInclude Include="inputBird.h" />
     <ClInclude Include="inputFish.h" />
-
     <ClInclude Include="outputAnimal.h" />
-
     <ClInclude Include="nameLenght.h" />
-
     <ClInclude Include="outputBird.h" />
     <ClInclude Include="outputContainer.h" />
     <ClInclude Include="outputElement.h" />
@@ -175,6 +166,9 @@
   <ItemGroup>
     <Text Include="input.txt" />
     <Text Include="output.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\progaTest\progaTest.sln" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,168 +1,152 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Файлы исходного кода">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Заголовочные файлы">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
-    </Filter>
-    <Filter Include="Файлы ресурсов">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Client.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="Init.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="InputContainer.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="inputElement.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="inputBird.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="inputFish.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
     <ClCompile Include="addElement.cpp">
-      <Filter>Файлы исходного кода</Filter>
+      <Filter>.cpp</Filter>
     </ClCompile>
-    <ClCompile Include="outputContainer.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="outputElement.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="outputFish.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="outputBird.cpp">
-      <Filter>Файлы исходного кода</Filter>
+    <ClCompile Include="Client.cpp">
+      <Filter>.cpp</Filter>
     </ClCompile>
     <ClCompile Include="delete.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-
-    <ClCompile Include="inputAnimal.cpp">
-      <Filter>Файлы исходного кода</Filter>
-    </ClCompile>
-    <ClCompile Include="outputAnimal.cpp">
-
-    <ClCompile Include="nameLenght.cpp">
-
-      <Filter>Файлы исходного кода</Filter>
+      <Filter>.cpp</Filter>
     </ClCompile>
     <ClCompile Include="equ.cpp">
-      <Filter>Файлы исходного кода</Filter>
+      <Filter>.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Init.cpp">
+      <Filter>.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="inputAnimal.cpp">
+      <Filter>.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="inputBird.cpp">
+      <Filter>.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="InputContainer.cpp">
+      <Filter>.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="inputElement.cpp">
+      <Filter>.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="inputFish.cpp">
+      <Filter>.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="nameLenght.cpp">
+      <Filter>.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="outputAnimal.cpp">
+      <Filter>.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="outputBird.cpp">
+      <Filter>.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="outputFish.cpp">
+      <Filter>.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="outputElement.cpp">
+      <Filter>.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="outputContainer.cpp">
+      <Filter>.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="ignoreOutput.cpp">
+      <Filter>.cpp</Filter>
     </ClCompile>
     <ClCompile Include="sort.cpp">
-=======
-    <ClCompile Include="ignoreOutput.cpp">
->>>>>>> ignoreOutput
-      <Filter>Файлы исходного кода</Filter>
+      <Filter>.cpp</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="addElement.h">
-      <Filter>Заголовочные файлы</Filter>
+      <Filter>.h</Filter>
+    </ClInclude>
+    <ClInclude Include="animal.h">
+      <Filter>.h</Filter>
     </ClInclude>
     <ClInclude Include="Bird.h">
-      <Filter>Заголовочные файлы</Filter>
-    </ClInclude>
-    <ClInclude Include="container.h">
-      <Filter>Заголовочные файлы</Filter>
+      <Filter>.h</Filter>
     </ClInclude>
     <ClInclude Include="delete.h">
-      <Filter>Заголовочные файлы</Filter>
-    </ClInclude>
-    <ClInclude Include="Element.h">
-      <Filter>Заголовочные файлы</Filter>
-    </ClInclude>
-    <ClInclude Include="Fish.h">
-      <Filter>Заголовочные файлы</Filter>
-    </ClInclude>
-    <ClInclude Include="Head.h">
-      <Filter>Заголовочные файлы</Filter>
-    </ClInclude>
-    <ClInclude Include="Init.h">
-      <Filter>Заголовочные файлы</Filter>
-    </ClInclude>
-    <ClInclude Include="inputBird.h">
-      <Filter>Заголовочные файлы</Filter>
-    </ClInclude>
-    <ClInclude Include="InputContainer.h">
-      <Filter>Заголовочные файлы</Filter>
-    </ClInclude>
-    <ClInclude Include="inputElement.h">
-      <Filter>Заголовочные файлы</Filter>
-    </ClInclude>
-    <ClInclude Include="inputFish.h">
-      <Filter>Заголовочные файлы</Filter>
-    </ClInclude>
-    <ClInclude Include="outputBird.h">
-      <Filter>Заголовочные файлы</Filter>
-    </ClInclude>
-    <ClInclude Include="outputContainer.h">
-      <Filter>Заголовочные файлы</Filter>
-    </ClInclude>
-    <ClInclude Include="outputFish.h">
-      <Filter>Заголовочные файлы</Filter>
-    </ClInclude>
-    <ClInclude Include="outputElement.h">
-      <Filter>Заголовочные файлы</Filter>
-    </ClInclude>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <ClInclude Include="animal.h">
-      <Filter>Заголовочные файлы</Filter>
-    </ClInclude>
-    <ClInclude Include="inputAnimal.h">
-      <Filter>Заголовочные файлы</Filter>
-    </ClInclude>
-    <ClInclude Include="outputAnimal.h">
-=======
-    <ClInclude Include="nameLenght.h">
->>>>>>> newFunc
-      <Filter>Заголовочные файлы</Filter>
+      <Filter>.h</Filter>
     </ClInclude>
     <ClInclude Include="equ.h">
-      <Filter>Заголовочные файлы</Filter>
+      <Filter>.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Element.h">
+      <Filter>.h</Filter>
+    </ClInclude>
+    <ClInclude Include="container.h">
+      <Filter>.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Fish.h">
+      <Filter>.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Head.h">
+      <Filter>.h</Filter>
+    </ClInclude>
+    <ClInclude Include="Init.h">
+      <Filter>.h</Filter>
+    </ClInclude>
+    <ClInclude Include="inputAnimal.h">
+      <Filter>.h</Filter>
+    </ClInclude>
+    <ClInclude Include="inputBird.h">
+      <Filter>.h</Filter>
+    </ClInclude>
+    <ClInclude Include="InputContainer.h">
+      <Filter>.h</Filter>
+    </ClInclude>
+    <ClInclude Include="inputElement.h">
+      <Filter>.h</Filter>
+    </ClInclude>
+    <ClInclude Include="inputFish.h">
+      <Filter>.h</Filter>
+    </ClInclude>
+    <ClInclude Include="nameLenght.h">
+      <Filter>.h</Filter>
+    </ClInclude>
+    <ClInclude Include="outputFish.h">
+      <Filter>.h</Filter>
+    </ClInclude>
+    <ClInclude Include="outputBird.h">
+      <Filter>.h</Filter>
+    </ClInclude>
+    <ClInclude Include="outputAnimal.h">
+      <Filter>.h</Filter>
+    </ClInclude>
+    <ClInclude Include="outputElement.h">
+      <Filter>.h</Filter>
+    </ClInclude>
+    <ClInclude Include="outputContainer.h">
+      <Filter>.h</Filter>
+    </ClInclude>
+    <ClInclude Include="ignoreOutput.h">
+      <Filter>.h</Filter>
     </ClInclude>
     <ClInclude Include="sort.h">
-      <Filter>Заголовочные файлы</Filter>
+      <Filter>.h</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
-      <Filter>Файлы ресурсов</Filter>
+      <Filter>.txt</Filter>
     </Text>
     <Text Include="output.txt">
-      <Filter>Файлы ресурсов</Filter>
+      <Filter>.txt</Filter>
     </Text>
-<<<<<<< HEAD
   </ItemGroup>
   <ItemGroup>
-    <Text Include="output.txt">
-      <Filter>Файлы ресурсов</Filter>
-    </Text>
-    <Text Include="input.txt">
-      <Filter>Файлы ресурсов</Filter>
-    </Text>
-=======
->>>>>>> newFunc
-=======
-    <ClInclude Include="ignoreOutput.h">
-      <Filter>Заголовочные файлы</Filter>
-    </ClInclude>
->>>>>>> ignoreOutput
+    <None Include="..\..\progaTest\progaTest.sln" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include=".h">
+      <UniqueIdentifier>{f4c99183-8600-4743-8c2e-e053bcdf7755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".cpp">
+      <UniqueIdentifier>{24f3a9f6-590f-4bd6-9244-c76804f37661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".txt">
+      <UniqueIdentifier>{3fcc9cb3-51f4-4ffe-b8df-4385ce47b7aa}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>

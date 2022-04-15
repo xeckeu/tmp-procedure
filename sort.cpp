@@ -2,8 +2,13 @@
 #include "nameLenght.h"
 #include "Init.h"
 #include "addElement.h"
-Head* sort(Head* list)
+#include "equ.h"
+int* sort(Head*& list)
 {
+	int* choises = new int[list->size];
+	int i = 0;
+	int indChoises=0;
+	int minInd = 0;
 	auto cur = list->begin;
 	do
 	{
@@ -11,16 +16,21 @@ Head* sort(Head* list)
 		cur = cur->next;
 	}while (cur != list->begin);
 	Head* newList = new Head();
-	Init(newList);
+	InitList(newList);
 	while (list->size != 0)
 	{
+		minInd = 0;
 		cur = list->begin;
 		auto newMin = list->begin;
 		int curS = list->size;
 		do
 		{
-			if (newMin->nameLenght > cur->nameLenght)
+			if (equ(newMin, cur) == 1)
+			{
 				newMin = cur;
+				minInd = i;
+			}
+			i++;
 			cur = cur->next;
 			curS -= 1;
 		} while (curS);
@@ -38,7 +48,10 @@ Head* sort(Head* list)
 		addElement(newList, newMin);
 		
 		list->size--;
+		choises[indChoises] = minInd;
+		indChoises++;
 	}
 	delete[] list;
-	return newList;
+	list = newList;
+	return choises;
 }

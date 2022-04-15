@@ -5,4 +5,4 @@
 
 #include "Head.h" 
 #include "outputElement.h"
-void output(std::ofstream& file, Head*outHead,container::type ignore);
+int output(std::ofstream& file, Head*outHead,container::type ignore);

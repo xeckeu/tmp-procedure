@@ -1,0 +1,7 @@
+Container contains 3 elements
+0: It's animal, name cow eating type herbivore age 2
+Name lenght 6
+1: It's bird, name eagle migratory false, age 5
+Name lenght 10
+2: It's fish, name is salmon areal is sea, age 6
+Name lenght 12

@@ -4,4 +4,4 @@
 #include <string>
 #include "Element.h"
 
-void input(bird& newBird, std::ifstream& file);
+int input(bird& newBird, std::ifstream& file);
