@@ -39,9 +39,20 @@ int main(int argNum, char* argStr[])
 	
 	Head* list=new Head;
 	InitList(list);
+	//Проверка файла на открытие
+	if (!inputFile.is_open())
+	{
+		cout << "Can't open\n";
+		exit(2);
+	}
 	input( inputFile, list);
-	
+	if (!outputFile.is_open())
+	{
+		cout << "Can't open\n";
+		exit(3);
+	}
 	outputFile << "Filled container\n";
+	
 	output(outputFile, list);
 	outputFile << "\n";
 	outputFile << "Ignore bird\n";
@@ -62,4 +73,5 @@ int main(int argNum, char* argStr[])
 	outputFile << "Empty conteiner\n";
 	deleteContainer(list);
 	output(outputFile, list);
+	system("pause");
 }

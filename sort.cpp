@@ -9,6 +9,10 @@ int* sort(Head*& list)
 	int i = 0;
 	int indChoises=0;
 	int minInd = 0;
+	if (list->size == 0)
+	{
+		return nullptr;
+	}
 	auto cur = list->begin;
 	do
 	{

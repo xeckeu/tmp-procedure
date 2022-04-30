@@ -3,8 +3,10 @@
 int output(fish out, std::ofstream& file)
 {
 	file << "It's fish, name is " << out.name << " areal is ";
-	if (file.bad())
+	if (file.fail())
+	{
 		return 1;
+	}
 	switch (out.areal)
 	{
 	case fish::habitat::Lake:
@@ -24,12 +26,14 @@ int output(fish out, std::ofstream& file)
 	}
 
 	default:
-		break;
-	}
-	if (file.bad())
+	{
 		return 2;
+	}
+	}
 	file << ", age " << out.age << "\n";
-	if (file.bad())
+	if (file.fail())
+	{
 		return 3;
+	}
 	return 0;
 }

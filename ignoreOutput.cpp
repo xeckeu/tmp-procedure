@@ -1,6 +1,9 @@
 #include "ignoreOutput.h"
 
-int output(std::ofstream& file, Head*outHead, container::type ignore)
+int output(std::ofstream& file,//файл для вывода
+	Head*outHead,//указатель на выводимый список
+	container::type ignore//тип игнорируемого значения
+	)
 {
 	auto cur = outHead->begin;
 	int num = 0;

@@ -2,6 +2,11 @@
 #include "delete.h"
 int deleteContainer(Head* head)
 {
+	if (head == nullptr)
+	{ 
+		return -1;
+	}
+		
 	auto erasing= head->begin;
 	while (head->size > 0)
 	{

@@ -4,8 +4,11 @@ int input(fish& newFish, std::ifstream& file)
 {
 	int num = 0;
 	std::string areal;
-	if (file >> newFish.name)
+	file >> newFish.name;
+	if (!file.fail())
+	{
 		num++;
+	}
 	file >> areal;
 	if (areal == "lake")
 	{
@@ -22,8 +25,11 @@ int input(fish& newFish, std::ifstream& file)
 		newFish.areal = fish::habitat::Sea;
 		num++;
 	}
-	if(file >> newFish.age)
+	file >> newFish.age;
+	if (!file.fail())
+	{
 		num++;
+	}
 
 	return num;
 }

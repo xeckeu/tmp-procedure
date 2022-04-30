@@ -1,30 +1,9 @@
-﻿Сборка начата 07.04.2022 10:20:22.
+﻿Сборка начата 16.04.2022 13:14:52.
      1>Проект "C:\Users\user\Documents\Visual Studio 2015\Projects\proga\Проект6\Проект6.vcxproj" в узле 2 (целевые объекты Build).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt nameLenght.cpp
-         nameLenght.cpp
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\user\Documents\Visual Studio 2015\Projects\proga\Debug\proga.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\user\Documents\Visual Studio 2015\Projects\proga\Debug\proga.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\user\Documents\Visual Studio 2015\Projects\proga\Debug\proga.lib" /MACHINE:X86 Debug\addElement.obj
-         Debug\Client.obj
-         Debug\delete.obj
-         Debug\equ.obj
-         Debug\ignoreOutput.obj
-         Debug\Init.obj
-         Debug\inputAnimal.obj
-         Debug\inputBird.obj
-         Debug\InputContainer.obj
-         Debug\inputElement.obj
-         Debug\inputFish.obj
-         Debug\outputAnimal.obj
-         Debug\nameLenght.obj
-         Debug\outputBird.obj
-         Debug\outputContainer.obj
-         Debug\outputElement.obj
-         Debug\outputFish.obj
-         Debug\sort.obj
+     1>Link:
          Проект6.vcxproj -> C:\Users\user\Documents\Visual Studio 2015\Projects\proga\Debug\proga.exe
      1>Сборка проекта "C:\Users\user\Documents\Visual Studio 2015\Projects\proga\Проект6\Проект6.vcxproj" завершена (целевые объекты Build).
 
 Сборка успешно завершена.
 
-Затраченное время: 00:00:01.58
+Затраченное время: 00:00:00.12

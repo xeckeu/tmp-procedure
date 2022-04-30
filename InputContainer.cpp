@@ -10,9 +10,11 @@ int input(std::ifstream& file, Head* container)
 		if ((newElement->c = input(file)) != 0)
 		{
 			num++;
+			if(newElement!=nullptr)
 			addElement(container, newElement);
 
 		}
+	
 	}
 	return num;
 }

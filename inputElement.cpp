@@ -1,5 +1,6 @@
 #include "inputElement.h"
-
+#include <string>
+#include <iostream>
 container* input(std::ifstream& file)
 {
 	container* newElement=false;
@@ -11,26 +12,39 @@ container* input(std::ifstream& file)
 	{
 		newElement = new container;
 		newElement->key = container::type::BIRD;
-		input(newElement->b, file);
-		return newElement;
+		if (input(newElement->b, file) == 3)
+		{
+			return newElement;
+		}
+		break;
 	}
 	case 'f':
 	{
 		newElement = new container;
 		newElement->key = container::type::FISH;
-		input(newElement->f, file);
-		return newElement;
+		;
+		if (input(newElement->f, file) == 3)
+		{
+			return newElement;
+		}
+		break;
 	}
 	case 'a':
 	{
 		newElement = new container;
 		newElement->key = container::type::ANIMAL;
-		input(newElement->a, file);
-		return newElement;
+		;
+		if (input(newElement->a, file) == 3)
+		{
+			return newElement;
+		}
+		break;
 	}
-	default:
-	{
-		return false;
+	
 	}
-	}
+	file.clear();
+	std::string cur;
+	std::getline(file, cur);
+	return false;
+
 }

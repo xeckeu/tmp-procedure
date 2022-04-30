@@ -4,8 +4,11 @@
 int input(animal& newAnimal, std::ifstream& file)
 {
 	int succesful = 0;
-	if (file >> newAnimal.name)
+	file >> newAnimal.name;
+	if (!file.fail())
+	{
 		succesful++;
+	}
 	
 	std::string cur;
 	file >> cur;
@@ -24,8 +27,11 @@ int input(animal& newAnimal, std::ifstream& file)
 		newAnimal.eat = animal::nutrition::predator;
 		succesful++;
 	}
-	if(file >> newAnimal.age)
+	file >> newAnimal.age;
+	if (!file.fail())
+	{
 		succesful++;
+	}
 
 	return succesful;
 }

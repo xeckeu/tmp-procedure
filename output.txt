@@ -1,6 +1,6 @@
 Filled container
 Container contains 3 elements
-0: It's bird, name eagle migratory false, age 5
+0: It's bird, name eagle migratory false, age 7
 Name lenght 5
 1: It's animal, name cow eating type herbivore age 2
 Name lenght 3
@@ -14,13 +14,13 @@ Name lenght 3
 Name lenght 6
 
 Ignore fish
-0: It's bird, name eagle migratory false, age 5
+0: It's bird, name eagle migratory false, age 7
 Name lenght 5
 1: It's animal, name cow eating type herbivore age 2
 Name lenght 3
 
 Ignore animal
-0: It's bird, name eagle migratory false, age 5
+0: It's bird, name eagle migratory false, age 7
 Name lenght 5
 2: It's fish, name is salmon areal is sea, age 6
 Name lenght 6
@@ -29,7 +29,7 @@ Sorted container
 Container contains 3 elements
 0: It's animal, name cow eating type herbivore age 2
 Name lenght 3
-1: It's bird, name eagle migratory false, age 5
+1: It's bird, name eagle migratory false, age 7
 Name lenght 5
 2: It's fish, name is salmon areal is sea, age 6
 Name lenght 6

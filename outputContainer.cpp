@@ -13,6 +13,10 @@ int output(std::ofstream& file, Head*outHead)
 			num++;
 			cur = cur->next;
 		}
+		else
+		{
+			return num;
+		}
 	}
 	return num;
 }

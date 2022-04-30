@@ -6,37 +6,42 @@ int nameLenght(Element* el)
 	{
 	case container::type::BIRD:
 	{
-		while (el->c->b.name[cur] != '\0')
+		if (el->c->b.name != nullptr)
 		{
-			cur++;
+			while (el->c->b.name[cur] != '\0')
+			{
+				cur++;
+			}
 		}
 		break;
 	}
 	case container::type::FISH:
 	{
-		while (el->c->f.name[cur] != '\0')
+		if (el->c->f.name != nullptr)
 		{
-			cur++;
+			while (el->c->f.name[cur] != '\0')
+			{
+				cur++;
+			}
 		}
 		break;
 	}
-	{
-		while (el->c->b.name[cur] != '\0')
-		{
-			cur++;
-		}
-		break;
-	}
+	
 	case container::type::ANIMAL:
 	{
-		while (el->c->a.name[cur] != '\0')
+		if (el->c->a.name != nullptr)
 		{
-			cur++;
+			while (el->c->a.name[cur] != '\0')
+			{
+				cur++;
+			}
 		}
 		break;
 	}
 	default:
-		break;
+	{
+		return -1;
 	}
-	return 2*cur;
+	}
+	return cur;
 }
